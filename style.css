@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  
+
+}
+html{
+  font-size: 12px;
+}
+
+
+body div#app{
+  min-width: 100vw;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 80vh;
+
+
+
+}
+
+/*pied-de-page{
+  height: 100px;
+  background-color: grey;
+}
+*/
+
+/*.section-page-accueil{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+
+ background-color:palevioletred;
+  padding: 10px;
+ 
+}
+*/
+
+
+
+:root{
+  --couleur-de-police-rouge: blue;
+}
+
+.parag{
+  color:var(--couleur-de-police-rouge);
+}
+
+:defined{
+  font-size: 0.9rem;
+}
+
+
+
+
+main#corps-de-page {
+  
+
+  /*font-size: 1em;*/
+  display: grid;
+  min-width: 100vw;
+  grid-template-columns: 2fr 0.6fr;
+  /*font-size: 0.6rem;*/
+ /* background-color: lightblue;*/
+}
+
+.permute-columns{
+  display: grid;
+  grid-template-columns: 0.6fr 2fr;
+}
+
+
+
+.aside {
+  font-size: 1em;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: rgba(119, 136, 153, 0.50);
+  padding: 10px;
+
+}
+
+.cacher-aside{
+  display: none;
+}
+
+.section-page-accueil{
+  font-size: 1em;
+  min-width: 50px;
+  padding: 5px;
+}
+
+
+.aside-liste-cours{
+  min-width: 25vw;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: rgba(119, 136, 153, 0.50);
+}
+
+.cacher-liste-cours{
+  display:none;
+}
+/*
+page-accueil::part(accueil-div){
+
+
+}
+*/
+page-accueil::part(parag-accueil){
+  color: lightseagreen;
+}
+
+.couleur-titre{
+  padding: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right:2px solid black;
+  border-left:2px solid black;
+  width: 300px;
+}
